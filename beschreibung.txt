@@ -1,0 +1,1 @@
+Dieses Programm kann Kundendaten, Artikeldaten und Bestellungen speichern. Zudem koennen Kundendaten, Artikeldaten und alle Bestellungen einer Person und alle Bestellungen eines Artikels gesucht werden. Die Funktion main befindet sich in Programm.cs.

@@ -1,0 +1,14 @@
+﻿<Properties StartupItem="Bestellungen_cs.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Hauptfenster.cs">
+    <Files>
+      <File FileName="Hauptfenster.cs" Line="42" Column="4" />
+      <File FileName="MainWindow.cs" Line="1" Column="1" />
+      <File FileName="Program.cs" Line="12" Column="23" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

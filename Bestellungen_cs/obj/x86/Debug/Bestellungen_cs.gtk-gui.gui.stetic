@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<stetic-interface>
+  <configuration>
+    <images-root-path>..</images-root-path>
+    <target-gtk-version>2.12</target-gtk-version>
+  </configuration>
+  <import>
+    <widget-library name="glade-sharp, Version=2.12.0.0, Culture=neutral, PublicKeyToken=35e10195dab3c99f" />
+    <widget-library name="../bin/Debug/Bestellungen_cs.exe" internal="true" />
+  </import>
+  <widget class="Gtk.Window" id="MainWindow" design-size="559 300">
+    <action-group name="Default">
+      <action id="PersonenBearbeitenAction">
+        <property name="Type">Action</property>
+        <property name="Label" translatable="yes">Personen bearbeiten</property>
+        <property name="ShortLabel" translatable="yes">Personen bearbeiten</property>
+      </action>
+      <action id="PersonSpeichernAction">
+        <property name="Type">Action</property>
+        <property name="Label" translatable="yes">Person speichern</property>
+        <property name="ShortLabel" translatable="yes">Person speichern</property>
+      </action>
+      <action id="PersonSuchenAction">
+        <property name="Type">Action</property>
+        <property name="Label" translatable="yes">Person suchen</property>
+        <property name="ShortLabel" translatable="yes">Person suchen</property>
+      </action>
+      <action id="ArtikelBearbeitenAction">
+        <property name="Type">Action</property>
+        <property name="Label" translatable="yes">Artikel bearbeiten</property>
+        <property name="ShortLabel" translatable="yes">Artikel bearbeiten</property>
+      </action>
+      <action id="ArtikelSpeichernAction">
+        <property name="Type">Action</property>
+        <property name="Label" translatable="yes">Artikel speichern</property>
+        <property name="ShortLabel" translatable="yes">Artikel speichern</property>
+      </action>
+      <action id="ArtikelSuchenAction">
+        <property name="Type">Action</property>
+        <property name="Label" translatable="yes">Artikel suchen</property>
+        <property name="ShortLabel" translatable="yes">Artikel suchen</property>
+      </action>
+    </action-group>
+    <property name="MemberName" />
+    <property name="Title" translatable="yes">MainWindow</property>
+    <property name="WindowPosition">CenterOnParent</property>
+    <signal name="DeleteEvent" handler="OnDeleteEvent" />
+    <child>
+      <widget class="Gtk.VBox" id="vbox1">
+        <property name="MemberName" />
+        <property name="Spacing">6</property>
+        <child>
+          <widget class="Gtk.MenuBar" id="menubar2">
+            <property name="MemberName" />
+            <node name="__gtksharp_151_Stetic_Editor_ActionMenuBar" type="Menubar">
+              <node type="Menu" action="PersonenBearbeitenAction">
+                <node type="Menuitem" action="PersonSpeichernAction" />
+                <node type="Menuitem" action="PersonSuchenAction" />
+              </node>
+              <node type="Menu" action="ArtikelBearbeitenAction">
+                <node type="Menuitem" action="ArtikelSpeichernAction" />
+                <node type="Menuitem" action="ArtikelSuchenAction" />
+              </node>
+            </node>
+          </widget>
+          <packing>
+            <property name="Position">0</property>
+            <property name="AutoSize">True</property>
+            <property name="Expand">False</property>
+            <property name="Fill">False</property>
+          </packing>
+        </child>
+        <child>
+          <placeholder />
+        </child>
+        <child>
+          <placeholder />
+        </child>
+      </widget>
+    </child>
+  </widget>
+</stetic-interface>

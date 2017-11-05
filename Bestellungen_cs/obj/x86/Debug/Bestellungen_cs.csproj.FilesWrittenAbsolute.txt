@@ -1,0 +1,7 @@
+/home/christian/programs/cs/Bestellungen_cs/Bestellungen_cs/obj/x86/Debug/.NETFramework,Version=v4.5.AssemblyAttribute.cs
+/home/christian/programs/cs/Bestellungen_cs/Bestellungen_cs/obj/x86/Debug/Bestellungen_cs.gtk-gui.gui.stetic
+/home/christian/programs/cs/Bestellungen_cs/Bestellungen_cs/bin/Debug/Bestellungen_cs.exe.mdb
+/home/christian/programs/cs/Bestellungen_cs/Bestellungen_cs/bin/Debug/Bestellungen_cs.exe
+/home/christian/programs/cs/Bestellungen_cs/Bestellungen_cs/obj/x86/Debug/Bestellungen_cs.exe
+/home/christian/programs/cs/Bestellungen_cs/Bestellungen_cs/obj/x86/Debug/Bestellungen_cs.exe.mdb
+/home/christian/programs/cs/Bestellungen_cs/Bestellungen_cs/bin/Debug/MySql.Data.dll
